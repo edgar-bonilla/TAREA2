@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "nombre": "Ferrari 488 GTB",
+      "marcaId": 1,
+      "diseñadorId": 1,
+      "precio": "$280,000",
+      "imagen": "/imagenes/ferrari.png",
+      "anio": 2020,
+      "descripcion": "El Ferrari 488 GTB es un superdeportivo de motor central con un rendimiento excepcional. Con su diseño aerodinámico y tecnología avanzada, es uno de los mejores autos de lujo de su clase.",
+      "caballaje": 660
+    },
+    {
+      "id": 2,
+      "nombre": "Lamborghini Huracán",
+      "marcaId": 2,
+      "diseñadorId": 2,
+      "precio": "$330,000",
+      "imagen": "/imagenes/huracan.png",
+      "anio": 2021,
+      "descripcion": "El Lamborghini Huracán es conocido por su agresivo diseño y potencia en el asfalto. Ofrece una conducción excitante y una estética que resalta en cualquier carretera.",
+      "caballaje": 640
+    },
+    {
+      "id": 3,
+      "nombre": "Porsche 911 Turbo",
+      "marcaId": 3,
+      "diseñadorId": 3,
+      "precio": "$120,000",
+      "imagen": "/imagenes/porsche911.png",
+      "anio": 2019,
+      "descripcion": "El Porsche 911 Turbo combina elegancia y tecnología de punta en un paquete deportivo. Es uno de los modelos más icónicos de Porsche, conocido por su rendimiento y estilo clásico.",
+      "caballaje": 540
+    },
+    {
+      "id": 4,
+      "nombre": "McLaren 720S",
+      "marcaId": 4,
+      "diseñadorId": 4,
+      "precio": "$310,000",
+      "imagen": "/imagenes/mclaren720s.png",
+      "anio": 2022,
+      "descripcion": "El McLaren 720S es un superdeportivo que destaca por su diseño aerodinámico y su motor de alta potencia. Con un enfoque en la ligereza y velocidad, es un modelo extremo.",
+      "caballaje": 720
+    },
+    {
+      "id": 5,
+      "nombre": "Aston Martin DB11",
+      "marcaId": 5,
+      "diseñadorId": 5,
+      "precio": "$205,000",
+      "imagen": "/imagenes/astonmartin.png",
+      "anio": 2021,
+      "descripcion": "El Aston Martin DB11 es un automóvil de lujo que mezcla belleza y rendimiento. Su diseño elegante y motor potente lo convierten en una opción deseable para los amantes de los autos deportivos.",
+      "caballaje": 503
+    },
+    {
+      "id": 6,
+      "nombre": "Bugatti Chiron",
+      "marcaId": 6,
+      "diseñadorId": 6,
+      "precio": "$3,000,000",
+      "imagen": "/imagenes/bugattichiron.png",
+      "anio": 2023,
+      "descripcion": "El Bugatti Chiron es un hiperauto con un rendimiento inigualable. Con una velocidad máxima de 420 km/h, este auto de lujo es uno de los más rápidos y caros del mundo.",
+      "caballaje": 1500
+    }
+  ]
+}

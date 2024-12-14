@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "nombre": "Ferrari",
+      "añoFundacion": 1939,
+      "pais": "Italia",
+      "informacion": "Ferrari es una marca legendaria de autos deportivos fundada por Enzo Ferrari. Conocida por su vinculación con las competiciones de Fórmula 1, Ferrari es símbolo de lujo y velocidad.",
+      "fundador": "Enzo Ferrari"
+    },
+    {
+      "id": 2,
+      "nombre": "Lamborghini",
+      "añoFundacion": 1963,
+      "pais": "Italia",
+      "informacion": "Lamborghini es una marca de autos de lujo y alto rendimiento. Fundada por Ferruccio Lamborghini, la marca es famosa por sus diseños agresivos y su enfoque en la potencia y la tecnología.",
+      "fundador": "Ferruccio Lamborghini"
+    },
+    {
+      "id": 3,
+      "nombre": "Porsche",
+      "añoFundacion": 1931,
+      "pais": "Alemania",
+      "informacion": "Porsche es conocida por fabricar autos deportivos de alta gama. Su legado incluye una innovación constante en ingeniería, rendimiento y diseño, con el 911 como su modelo más emblemático.",
+      "fundador": "Ferdinand Porsche"
+    },
+    {
+      "id": 4,
+      "nombre": "McLaren",
+      "añoFundacion": 1963,
+      "pais": "Reino Unido",
+      "informacion": "McLaren es una marca de autos de lujo y tecnología avanzada, conocida por sus superdeportivos ligeros y extremadamente rápidos. Su enfoque está en la innovación y la ingeniería de precisión.",
+      "fundador": "Bruce McLaren"
+    },
+    {
+      "id": 5,
+      "nombre": "Aston Martin",
+      "añoFundacion": 1913,
+      "pais": "Reino Unido",
+      "informacion": "Aston Martin es famosa por sus autos de lujo con un diseño clásico y sofisticado. A lo largo de los años, ha sido sinónimo de elegancia y potencia, popular entre celebridades y figuras públicas.",
+      "fundador": "Lionel Martin y Robert Bamford"
+    },
+    {
+      "id": 6,
+      "nombre": "Bugatti",
+      "añoFundacion": 1909,
+      "pais": "Francia",
+      "informacion": "Bugatti es conocida por fabricar algunos de los autos más rápidos y lujosos del mundo. Con una historia marcada por el rendimiento extremo, el Chiron es uno de los autos más codiciados.",
+      "fundador": "Ettore Bugatti"
+    }
+  ]
+}

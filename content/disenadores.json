@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "nombre": "Flavio Manzoni",
+      "pais": "Italia",
+      "biografia": "Flavio Manzoni es un diseñador italiano conocido por su trabajo en Ferrari. Fue el responsable de diseñar el Ferrari 488 GTB, un superdeportivo que combina innovación tecnológica y estética envidiable.",
+      "estilo": "Su estilo es vanguardista, combinando formas aerodinámicas con líneas agresivas y detalles elegantes.",
+      "imagen": "/imagenes/1a.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Mitja Borkert",
+      "pais": "Alemania",
+      "biografia": "Mitja Borkert es un diseñador industrial alemán, quien ha trabajado en Lamborghini desde 2004. Es conocido por su enfoque en el diseño de autos con líneas extremas y detalles futuristas.",
+      "estilo": "Borkert crea diseños agresivos y extremadamente aerodinámicos, siempre buscando una estética que resalte en la carretera.",
+      "imagen": "/imagenes/Borkert.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Grant Larson",
+      "pais": "EE. UU.",
+      "biografia": "Grant Larson es un reconocido diseñador automotriz estadounidense, famoso por su trabajo en el diseño del Porsche 911 Turbo. Su enfoque combina la elegancia clásica con la tecnología avanzada.",
+      "estilo": "Su estilo se caracteriza por el balance entre la tradición y la modernidad, buscando siempre la funcionalidad y el rendimiento.",
+      "imagen": "/imagenes/2b.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Frank Stephenson",
+      "pais": "Reino Unido",
+      "biografia": "Frank Stephenson es un diseñador automotriz británico que ha trabajado con marcas como McLaren y Mini. Es conocido por su trabajo en el diseño del McLaren 720S.",
+      "estilo": "Su estilo es conocido por su atención al detalle y su capacidad para diseñar autos que son tanto hermosos como funcionales.",
+      "imagen": "/imagenes/3b.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Marek Reichman",
+      "pais": "Reino Unido",
+      "biografia": "Marek Reichman es un diseñador británico, conocido por su trabajo con Aston Martin. Es responsable de la creación de algunos de los modelos más icónicos de la marca.",
+      "estilo": "Reichman tiene un enfoque en el diseño de autos de lujo que combinan elegancia, tecnología y una estética atemporal.",
+      "imagen": "/imagenes/4b.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Achim Anscheidt",
+      "pais": "Alemania",
+      "biografia": "Achim Anscheidt es el director de diseño de Bugatti y es responsable del diseño del Bugatti Chiron, un superdeportivo que combina un rendimiento impresionante con un lujo extremo.",
+      "estilo": "Su estilo equilibra la ingeniería avanzada con el diseño refinado, enfocado en la aerodinámica y el lujo sin comprometer el rendimiento.",
+      "imagen": "/imagenes/5b.png"
+    }
+  ]
+}
