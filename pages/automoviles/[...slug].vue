@@ -4,48 +4,35 @@
 
     <div v-if="car" class="card mx-auto border-warning shadow-lg" style="max-width: 900px;">
       <div class="row g-0">
-    
         <div class="col-md-6 d-flex align-items-center">
           <img :src="car?.imagen" alt="Imagen de {{ car?.nombre }}" class="img-fluid rounded-start" />
         </div>
         
-     
         <div class="col-md-6">
           <div class="card-body">
-         
             <h3 class="card-title text-warning text-center text-uppercase fw-bold">{{ car?.nombre }}</h3>
 
             <div class="info-section mt-4">
-           
               <p class="mb-1">
                 <strong class="text-warning">Fabricante: </strong> 
                 <span>{{ car?.marca?.nombre }} ({{ car?.marca?.pais }})</span>
               </p>
-
-            
               <p class="mb-1">
                 <strong class="text-warning">Año: </strong> 
                 <span> {{  car?.anio }}</span>
               </p>
-
-           
               <p class="mb-1">
                 <strong class="text-warning">Precio: </strong> 
                 <span >{{ car?.precio }}</span>
               </p>
-
-             
               <p class="mb-1">
                 <strong class="text-warning">Descripción: </strong> 
                 <span>{{ car?.descripcion }}</span>
               </p>
-
-             
               <p class="mb-1">
                 <strong class="text-warning">Diseñador: </strong> 
                 <span >{{ car?.diseñador?.nombre }}</span>
               </p>
-
               <p class="mb-1">
                 <strong class="text-warning">Caballaje: </strong> 
                 <span>{{ car?.caballaje }} CV</span>
@@ -59,13 +46,15 @@
     <div v-else class="text-center mt-5">
       <p class="text-muted">El automóvil no fue encontrado.</p>
     </div>
+
+    <!-- Contenedor para los comentarios -->
+    <div id="utteranc-comments" class="mt-5"></div>
   </div>
 </template>
 
 <script setup>
 const route = useRoute()
-const carId = route.params.slug 
-
+const carId = route.params.slug
 
 const automovilesData = await queryContent('automoviles').only('items').findOne()
 const fabricantesData = await queryContent('fabricantes').only('items').findOne()
@@ -80,6 +69,18 @@ if (car) {
   car.marca = marca
   car.diseñador = diseñador
 }
+
+onMounted(() => {
+  // Agregamos el script de Utterances
+  const script = document.createElement('script')
+  script.src = 'https://utteranc.es/client.js'
+  script.async = true
+  script.setAttribute('repo', 'edgar-bonilla/TAREA2') 
+  script.setAttribute('issue-term', 'pathname')
+  script.setAttribute('theme', 'github-light') 
+  script.setAttribute('crossorigin', 'anonymous')
+  document.getElementById('utteranc-comments').appendChild(script)
+})
 </script>
 
 <style scoped>

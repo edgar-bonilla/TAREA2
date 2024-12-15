@@ -1,6 +1,6 @@
 <template>
   <div class="container py-5">
-    <h3 class="text-warning text-center text-uppercase fw-bold mb-5">Automóviles Destacados</h3>
+    <h3 class="text-warning text-center text-uppercase fw-bold mb-5">Automóviles </h3>
 
     <div class="row">
       <div v-for="car in automoviles" :key="car.id" class="col-12 col-md-4 mb-4">

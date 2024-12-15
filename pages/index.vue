@@ -4,7 +4,6 @@
     <p class="lead mb-5 text-light">Explora los vehículos más exclusivos, los diseñadores y fabricantes que hacen realidad el lujo sobre ruedas.</p>
 
     <div class="row justify-content-center mt-5">
-      <!-- Tarjeta de Automóviles -->
       <div class="col-12 col-md-4 mb-4">
         <div class="card h-100 border-warning shadow-lg rounded-3">
           <router-link to="/automoviles" class="text-decoration-none text-dark">
@@ -52,7 +51,7 @@ export default {
 <style scoped>
 /* Fondo principal con degradado */
 .home {
-  background: linear-gradient(135deg, #1c1c1c, #4e4e4e);
+  
   color: #fff;
 }
 
