@@ -4,7 +4,6 @@
 
     <div v-if="designer" class="card mx-auto border-warning shadow-lg" style="max-width: 900px;">
       <div class="row g-0">
-    
         <div class="col-md-6 d-flex align-items-center">
           <img :src="designer?.imagen" alt="Imagen de {{ designer?.nombre }}" class="img-fluid rounded-start" />
         </div>
@@ -37,6 +36,9 @@
     <div v-else class="text-center mt-5">
       <p class="text-muted">El diseñador no fue encontrado.</p>
     </div>
+
+    <!-- Contenedor para los comentarios -->
+    <div id="utteranc-comments" class="mt-5"></div>
   </div>
 </template>
 
@@ -47,6 +49,18 @@ const designerId = route.params.slug
 const disenadoresData = await queryContent('disenadores').only('items').findOne()
 
 const designer = disenadoresData?.items?.find(d => d.id === parseInt(designerId))
+
+onMounted(() => {
+  // Agregamos el script de Utterances
+  const script = document.createElement('script')
+  script.src = 'https://utteranc.es/client.js'
+  script.async = true
+  script.setAttribute('repo', 'edgar-bonilla/TAREA2') // Reemplaza por tu repositorio
+  script.setAttribute('issue-term', 'pathname')
+  script.setAttribute('theme', 'github-light') // Tema claro
+  script.setAttribute('crossorigin', 'anonymous')
+  document.getElementById('utteranc-comments').appendChild(script)
+})
 </script>
 
 <style scoped>

@@ -15,13 +15,15 @@
               <li class="list-group-item"><strong>Fundador:</strong> {{ manufacturer.fundador ? manufacturer.fundador : 'No disponible' }}</li>
               <li class="list-group-item"><strong>Información:</strong> {{ manufacturer.informacion }}</li>
             </ul>
-
           </div>
         </div>
       </div>
     </div>
 
     <p v-else class="text-center text-muted">El fabricante no fue encontrado.</p>
+
+    <!-- Contenedor para los comentarios -->
+    <div id="utteranc-comments" class="mt-5"></div>
   </div>
 </template>
 
@@ -41,8 +43,20 @@ try {
   console.error('Error al obtener los datos del fabricante:', error)
   manufacturer = null
 }
+
+// Cargar script de Utterances en el montaje
+onMounted(() => {
+  const script = document.createElement('script')
+  script.src = 'https://utteranc.es/client.js'
+  script.async = true
+  script.setAttribute('repo', 'edgar-bonilla/TAREA2') 
+  script.setAttribute('issue-term', 'pathname')
+  script.setAttribute('theme', 'github-light') 
+  script.setAttribute('crossorigin', 'anonymous')
+  document.getElementById('utteranc-comments').appendChild(script)
+})
 </script>
 
 <style scoped>
-
+/* Puedes agregar estilos aquí si es necesario */
 </style>
